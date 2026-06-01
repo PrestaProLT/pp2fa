@@ -1,0 +1,11 @@
+# Local tooling / runtime — not part of the module
+.claude/
+logs/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/

@@ -1,0 +1,9 @@
+services:
+    pp2fa.request_guard_listener:
+        class: PrestaShop\Module\Pp2fa\Subscriber\RequestGuardSubscriber
+        public: true
+        tags:
+            # Registered as a listener (not a subscriber) so the class is loaded
+            # lazily at runtime, never during container compilation. Priority 4
+            # keeps it after the legacy context/employee are initialised.
+            - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest, priority: 4 }

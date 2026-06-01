@@ -1,0 +1,104 @@
+/**
+ * PrestaPro — Admin 2FA Login
+ */
+
+.pp2fa-wrapper {
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+.pp2fa-wrapper--narrow {
+    max-width: 460px;
+}
+
+.pp2fa-panel .panel-heading {
+    font-weight: 600;
+}
+
+.pp2fa-intro {
+    color: #6c868e;
+    margin-bottom: 20px;
+}
+
+.pp2fa-step {
+    margin-bottom: 20px;
+}
+
+.pp2fa-step h4 {
+    margin-bottom: 12px;
+}
+
+.pp2fa-step-num {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    background: #25b9d7;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 6px;
+}
+
+.pp2fa-qr {
+    display: inline-block;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #e0e6ed;
+    border-radius: 4px;
+    min-width: 180px;
+    min-height: 180px;
+}
+
+.pp2fa-qr img,
+.pp2fa-qr canvas {
+    display: block;
+}
+
+.pp2fa-manual {
+    margin-top: 14px;
+}
+
+.pp2fa-secret {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 6px 10px;
+    background: #f4f7f9;
+    border: 1px solid #e0e6ed;
+    border-radius: 4px;
+    user-select: all;
+}
+
+.pp2fa-code-input {
+    font-size: 28px;
+    letter-spacing: 8px;
+    text-align: center;
+    max-width: 260px;
+    font-family: monospace;
+}
+
+.pp2fa-recovery-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px, 200px));
+    gap: 8px;
+}
+
+.pp2fa-recovery-list code {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    background: #f4f7f9;
+    border: 1px solid #e0e6ed;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pp2fa-mt {
+    margin-top: 12px;
+}

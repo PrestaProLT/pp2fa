@@ -1,0 +1,20 @@
+{
+    "name": "prestapro/pp2fa",
+    "description": "Enforce two-factor authentication (TOTP) for the PrestaShop back office. Compatible with PrestaShop 1.7, 8 and 9.",
+    "type": "prestashop-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "PrestaPro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PrestaShop\\Module\\Pp2fa\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false
+    }
+}
