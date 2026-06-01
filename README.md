@@ -75,3 +75,11 @@ controllers/admin/AdminPp2faSetupController.php      QR enrollment + recovery co
 config/admin/services.yml         Registers the request subscriber in the admin container
 views/                            Templates, CSS, bundled qrcode.min.js
 ```
+
+## License
+
+Released under the **MIT License** — free to use, modify, and redistribute,
+including commercially, with attribution. See [`LICENSE`](LICENSE) for the full
+text.
+
+The bundled `views/js/qrcode.min.js` (davidshimjs/qrcodejs) is also MIT licensed.

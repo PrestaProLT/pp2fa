@@ -1,7 +1,7 @@
 {*
  * @author    PrestaPro
  * @copyright PrestaPro
- * @license   Proprietary
+ * @license   MIT (https://opensource.org/licenses/MIT)
  *}
 <div class="panel">
     <div class="panel-heading">

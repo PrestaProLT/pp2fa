@@ -4,7 +4,7 @@
  *
  * @author    PrestaPro
  * @copyright PrestaPro
- * @license   Proprietary
+ * @license   MIT (https://opensource.org/licenses/MIT)
  */
 
 header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');

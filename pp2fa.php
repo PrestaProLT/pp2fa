@@ -7,7 +7,7 @@
  *
  * @author    PrestaPro
  * @copyright PrestaPro
- * @license   Proprietary
+ * @license   MIT (https://opensource.org/licenses/MIT)
  */
 
 if (!defined('_PS_VERSION_')) {

@@ -2,7 +2,7 @@
 /**
  * @author    PrestaPro
  * @copyright PrestaPro
- * @license   Proprietary
+ * @license   MIT (https://opensource.org/licenses/MIT)
  */
 
 use PrestaShop\Module\Pp2fa\Security\TwoFactorManager;

@@ -2,7 +2,7 @@
 /**
  * @author    PrestaPro
  * @copyright PrestaPro
- * @license   Proprietary
+ * @license   MIT (https://opensource.org/licenses/MIT)
  */
 
 declare(strict_types=1);
